@@ -13,31 +13,31 @@ li {
 }
 
 .calculator {
-  max-width: 300px;
-  margin: 20px auto;
-  border: 1px solid #eee;
-  border-radius: 3px;
+  max-width: 40vw;
+  margin: 2.667vw auto;
+  border: 0.133vw solid #eee;
+  border-radius: 0.4vw;
 }
 
 .cal-header {
-  font-size: 16px;
+  font-size: 2.133vw;
   color: #333;
   font-weight: bold;
-  height: 48px;
-  line-height: 48px;
-  border-bottom: 1px solid #eee;
+  height: 6.4vw;
+  line-height: 6.4vw;
+  border-bottom: 0.133vw solid #eee;
   text-align: center;
 }
 
 .cal-main {
-  font-size: 14px;
+  font-size: 1.867vw;
 }
 
 .cal-main .origin-value {
-  padding: 15px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 20px;
+  padding: 2vw;
+  height: 5.333vw;
+  line-height: 5.333vw;
+  font-size: 2.667vw;
   text-align: right;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -46,15 +46,15 @@ li {
 
 .cal-main .origin-type,
 .cal-main .target-type {
-  padding-left: 5px;
-  width: 70px;
-  font-size: 14px;
-  height: 30px;
-  border: 1px solid #eee;
+  padding-left: 0.667vw;
+  width: 9.333vw;
+  font-size: 1.867vw;
+  height: 4vw;
+  border: 0.133vw solid #eee;
   background-color: #fff;
   vertical-align: middle;
-  margin-right: 10px;
-  border-radius: 3px;
+  margin-right: 1.333vw;
+  border-radius: 0.4vw;
 }
 
 .cal-keyboard {
@@ -69,12 +69,12 @@ li {
   user-select: none;
   float: left;
   display: inline-block;
-  width: 75px;
-  height: 75px;
+  width: 10vw;
+  height: 10vw;
   text-align: center;
-  line-height: 75px;
-  border-top: 1px solid #eee;
-  border-left: 1px solid #eee;
+  line-height: 10vw;
+  border-top: 0.133vw solid #eee;
+  border-left: 0.133vw solid #eee;
   box-sizing: border-box;
 }
 
@@ -89,16 +89,16 @@ li[data-action=operator] {
 
 .buttons {
   float: left;
-  width: 75px;
+  width: 10vw;
 }
 
 .buttons .btn {
-  width: 75px;
+  width: 10vw;
   background-color: #fff;
-  border-top: 1px solid #eee;
-  border-left: 1px solid #eee;
-  height: 150px;
-  line-height: 150px;
+  border-top: 0.133vw solid #eee;
+  border-left: 0.133vw solid #eee;
+  height: 20vw;
+  line-height: 20vw;
   text-align: center;
 }
 

@@ -1,0 +1,102 @@
+html,body{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  line-height: 12vw;
+  text-align: center;
+  /* height: 45px; */
+  color: white;
+  font-size: 4.8vw;
+  background-color: #02b28b;
+}
+section{
+  flex: 1;
+  /* background-color: orange; */
+}
+footer{
+  /* height: 45px; */
+  display: flex;
+  /* background-color: blue; */
+}
+section>nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11.733vw;
+  /* background-color: aqua; */
+  padding: 0 4vw;
+  border-bottom: 1px solid black;
+}
+nav>span:nth-child(2){
+  height: 8vw;
+  width: 22.667vw;
+  border-radius: 4vw;
+  color:#02b28b ;
+  background-color: #f6f6f8;
+  text-align: center;
+  line-height: 8vw;
+}
+main>div>img{
+  width: 17.867vw;
+  height: 20.8vw;
+}
+main>div{
+  display: flex;
+  padding: 3.2vw 0 0 3.2vw;
+}
+main>div>p{
+  width: 19.733vw;
+ line-height: 20.8vw;
+ color:#02b28b ;
+}
+main>div>div{
+  flex: 1;
+}
+main>div>div>p:first-child{
+  line-height: 7.2vw;
+  font-size: 4.667vw;
+  font-weight: bold;
+}
+main>div>div>p:nth-child(2){
+  font-size: 3.467vw;
+  line-height: 6.133vw;
+}
+main>div>div>p:nth-child(3){
+  font-size: 2.933vw;
+  color: grey;
+  line-height: 23px;
+}
+main>article{
+  height: 12.8vw;
+  text-align: center;
+  line-height: 12.8vw;
+  background-color: #fafafa;
+}
+aside{
+  height: 12.8vw;
+  padding-top: 8.267vw;
+  text-align: center;
+  line-height: 12.8vw;
+}
+main>.bot{
+  text-align: center;
+/* height: 27px; */
+line-height: 7.2vw;
+
+color: black !important;
+}
+main>.bot>a:hover{
+    text-decoration: underline;
+}
+footer>div{
+flex: 1;
+text-align: center;
+line-height: 12vw;
+}
+footer>div:hover{
+  background-color: aqua;
+}
